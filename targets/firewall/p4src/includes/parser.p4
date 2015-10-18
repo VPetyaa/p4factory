@@ -49,7 +49,7 @@ parser parse_ipv4 {
     extract(ipv4);
     return select (latest.protocol) {
         0x06 : parse_tcp;
-        0x11: parse_udp;
+        0x11 : parse_udp;
         default : ingress;
     }
 }
