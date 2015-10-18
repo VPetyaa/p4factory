@@ -6,3 +6,4 @@ oft.log
 *.dot
 *.png
 *.pcap
+install_tmp/*
