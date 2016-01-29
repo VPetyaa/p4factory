@@ -41,6 +41,7 @@ header_type tcp_t {
         //options : *;
     }
     //length: dataOffset*4;
+    //max_length : 60;
 }
 
 header_type udp_t {
